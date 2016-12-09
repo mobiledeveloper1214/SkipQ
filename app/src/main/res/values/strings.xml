@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">SkipQ</string>
+
+    <!--Title-->
+    <string name="title_change_password">Change Password</string>
+    <string name="title_success">Success!</string>
+
+    <!--Button Text-->
+    <string name="back">Back</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="take_from_camera">Take from camera</string>
+
+
+    <!--TextView Text-->
+    <string name="text_enter_code">Enter Code</string>
+    <string name="text_already_registered">Already registered? Please,</string>
+    <string name="text_not_registered_yet">Not registered yet? Please,</string>
+    <string name="text_select_avatar_photo">Add Profile Image</string>
+
+
+    <!--EditText Hint-->
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_old_password">Old Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_verification_code">Verification Code</string>
+
+
+    <!--Description-->
+    <string name="intro">Reduce your queue times, serve more customers and improve staff efficiencies</string>
+    <string name="contact_us">Please download the SkipQ app to get started or our web-based version at http://www.skypq.net.</string>
+
+    <!--Drawer Menu-->
+    <string name="menu_my_queues">My Queues</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_log_out">Log out</string>
+
+    <string name="menu_edit">Edit</string>
+    <string name="menu_done">Done</string>
+
+
+    <string name="str_navigation_drawer_open">Open</string>
+    <string name="str_navigation_drawer_close">Close</string>
+
+
+    <!--Error Message-->
+    <string name="error_field_required">This field is required.</string>
+    <string name="error_invalid_email">Email address is not in a valid format.</string>
+    <string name="error_invalid_password">The password must be at least 6 characters.</string>
+    <string name="error_not_match_password">Password does not match the confirm password.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="size_08">08dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+
+    <dimen name="border_radius">4dp</dimen>
+    <dimen name="nav_header_avatar_width">88dp</dimen>
+    <dimen name="avatar_edit_width">24dp</dimen>
+
+    <dimen name="font_size_normal">16sp</dimen>
+    <dimen name="font_size_title">24sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skipq.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".SkipQApp"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".views.user.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.user.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.user.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.user.SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.user.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".views.main.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LightAppTheme" />
+        <activity
+            android:name=".views.main.ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LightAppTheme" />
+        <activity android:name=".views.main.EnterQueueActivity"></activity>
+    </application>
+
+</manifest>
